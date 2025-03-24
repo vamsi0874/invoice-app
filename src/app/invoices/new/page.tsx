@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 
 
 import { createAction } from "@/app/actions";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const [state, setState] = useState("ready");
@@ -76,7 +77,7 @@ export default function Home() {
             <Input id="description" name="description" type="text" />
           </div>
           <div>
-            <button type="submit" className="bg-slate-500 border">Submit</button>
+            <Button type="submit">Submit</Button>
             {/* <SubmitButton /> */}
           </div>
         </form>

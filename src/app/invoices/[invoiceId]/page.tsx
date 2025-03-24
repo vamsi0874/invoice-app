@@ -19,7 +19,7 @@ export default async function InvoicePage({
     throw new Error("Invalid Invoice ID");
   }
 
-  // Displaying all invoices for public demo
+ 
 
   let [result]: Array<{
     invoices: typeof Invoices.$inferSelect;
