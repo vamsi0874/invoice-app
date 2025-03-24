@@ -41,8 +41,8 @@ export const InvoiceCreatedEmail = ({
           </Button>
         </Section>
         <Hr style={hr} />
-        <Link href="https://spacejelly.dev" style={reportLink}>
-          Space Jelly
+        <Link href="https://portfolio-mocha-phi-37.vercel.app" style={reportLink}>
+          vamsi
         </Link>
       </Container>
     </Body>
